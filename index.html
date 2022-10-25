@@ -37,14 +37,15 @@
             >
                 <a-entity
                     id="bowser-model"
-                    scale="2.2805056521544396 2.2805056521544396 2.2805056521544396"
+                    scale="10 10 10"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
                     class="clickable"
                     gesture-handler
                 ></a-entity>
             </a-marker>
-
+    <a-light type="ambient" color="#ffffff"></a-light>
+　　<a-light type="point" intensity="2" position="0 0 0"></a-light>
             <a-entity camera></a-entity>
         </a-scene>
     </body>
